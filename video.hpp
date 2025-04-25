@@ -1,6 +1,13 @@
 #include <opencv2/core.hpp>
-#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 #include <queue>
+#include <iostream>
+#include <windows.h>
+#include <wlanapi.h>
+#pragma comment(lib, "wlanapi.lib")
+
+#define WLAN_API_VERSION 2
 /***************************************************************************************
 *               时间：2025-4-25
 *               
@@ -18,9 +25,10 @@ namespace Video{
     const unsigned HEIGHT = 800u;
     const std::string_view PHONE = "";
     const std::string_view WIFI = "";
+    unsigned count = 0;
 
 
-    class Video{
+    class Videos{
     /***********************************成员变量*************************************/
     public:
         cv::Mat last_frame;
@@ -32,5 +40,6 @@ namespace Video{
         void show(unsigned weight = WEIGHT, unsigned height = HEIGHT);
     private:
         void close();
+        bool isPhone();
     };
 }
