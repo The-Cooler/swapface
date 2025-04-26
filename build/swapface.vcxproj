@@ -387,6 +387,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="F:\swapface\video.cpp" />
     <ClInclude Include="F:\swapface\video.hpp" />
+    <ClCompile Include="F:\swapface\SwapFace.cpp" />
+    <ClInclude Include="F:\swapface\SwapFace.hpp" />
     <ClCompile Include="F:\swapface\main.cpp" />
   </ItemGroup>
   <ItemGroup />

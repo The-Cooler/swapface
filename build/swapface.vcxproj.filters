@@ -4,12 +4,18 @@
     <ClCompile Include="F:\swapface\video.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="F:\swapface\SwapFace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="F:\swapface\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="F:\swapface\video.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\swapface\SwapFace.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -8,6 +8,7 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable( swapface 
                 video.cpp video.hpp
+                SwapFace.cpp SwapFace.hpp
                 main.cpp
 )
 target_link_libraries( swapface ${OpenCV_LIBS} )
