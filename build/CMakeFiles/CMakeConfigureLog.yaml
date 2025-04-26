@@ -1,0 +1,535 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+      生成启动时间为 2025/4/26 11:35:40。
+      
+      节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.95
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/swapface/build/CMakeFiles/4.0.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+      生成启动时间为 2025/4/26 11:35:44。
+      
+      节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\swapface\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.64
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/swapface/build/CMakeFiles/4.0.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xt7agh"
+      binary: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xt7agh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xt7agh'
+        
+        Run Build Command(s): D:/vs_ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fd84c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+        生成启动时间为 2025/4/26 11:35:47。
+        
+        节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xt7agh\\cmTC_fd84c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_fd84c.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xt7agh\\Debug\\”。
+          正在创建目录“cmTC_fd84c.dir\\Debug\\cmTC_fd84c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_fd84c.dir\\Debug\\cmTC_fd84c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_fd84c.dir\\Debug\\cmTC_fd84c.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd84c.dir\\Debug\\\\" /Fd"cmTC_fd84c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.43.34809 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd84c.dir\\Debug\\\\" /Fd"cmTC_fd84c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xt7agh\\Debug\\cmTC_fd84c.exe" /INCREMENTAL /ILK:"cmTC_fd84c.dir\\Debug\\cmTC_fd84c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xt7agh/Debug/cmTC_fd84c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xt7agh/Debug/cmTC_fd84c.lib" /MACHINE:X64  /machine:x64 cmTC_fd84c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fd84c.vcxproj -> F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xt7agh\\Debug\\cmTC_fd84c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_fd84c.dir\\Debug\\cmTC_fd84c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_fd84c.dir\\Debug\\cmTC_fd84c.tlog\\cmTC_fd84c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xt7agh\\cmTC_fd84c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/vs_ide/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "D:/vs_ide/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-89mvfi"
+      binary: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-89mvfi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-89mvfi'
+        
+        Run Build Command(s): D:/vs_ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_55b3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+        生成启动时间为 2025/4/26 11:35:49。
+        
+        节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89mvfi\\cmTC_55b3a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_55b3a.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89mvfi\\Debug\\”。
+          正在创建目录“cmTC_55b3a.dir\\Debug\\cmTC_55b3a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_55b3a.dir\\Debug\\cmTC_55b3a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_55b3a.dir\\Debug\\cmTC_55b3a.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55b3a.dir\\Debug\\\\" /Fd"cmTC_55b3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.43.34809 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55b3a.dir\\Debug\\\\" /Fd"cmTC_55b3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89mvfi\\Debug\\cmTC_55b3a.exe" /INCREMENTAL /ILK:"cmTC_55b3a.dir\\Debug\\cmTC_55b3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-89mvfi/Debug/cmTC_55b3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-89mvfi/Debug/cmTC_55b3a.lib" /MACHINE:X64  /machine:x64 cmTC_55b3a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_55b3a.vcxproj -> F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89mvfi\\Debug\\cmTC_55b3a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_55b3a.dir\\Debug\\cmTC_55b3a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_55b3a.dir\\Debug\\cmTC_55b3a.tlog\\cmTC_55b3a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89mvfi\\cmTC_55b3a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/vs_ide/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/vs_ide/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-ea548k"
+      binary: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-ea548k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-ea548k'
+        
+        Run Build Command(s): D:/vs_ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9d990.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+        生成启动时间为 2025/4/26 11:35:52。
+        
+        节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\cmTC_9d990.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9d990.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\Debug\\”。
+          正在创建目录“cmTC_9d990.dir\\Debug\\cmTC_9d990.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9d990.dir\\Debug\\cmTC_9d990.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_9d990.dir\\Debug\\cmTC_9d990.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d990.dir\\Debug\\\\" /Fd"cmTC_9d990.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.43.34809 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d990.dir\\Debug\\\\" /Fd"cmTC_9d990.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\src.c"
+          src.c
+        F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\src.c(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\cmTC_9d990.vcxproj]
+        已完成生成项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\cmTC_9d990.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\cmTC_9d990.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\src.c(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea548k\\cmTC_9d990.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xhu6pf"
+      binary: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xhu6pf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xhu6pf'
+        
+        Run Build Command(s): D:/vs_ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7013c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+        生成启动时间为 2025/4/26 11:35:54。
+        
+        节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\cmTC_7013c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7013c.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\Debug\\”。
+          正在创建目录“cmTC_7013c.dir\\Debug\\cmTC_7013c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7013c.dir\\Debug\\cmTC_7013c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_7013c.dir\\Debug\\cmTC_7013c.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7013c.dir\\Debug\\\\" /Fd"cmTC_7013c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.43.34809 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7013c.dir\\Debug\\\\" /Fd"cmTC_7013c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\Debug\\cmTC_7013c.exe" /INCREMENTAL /ILK:"cmTC_7013c.dir\\Debug\\cmTC_7013c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xhu6pf/Debug/cmTC_7013c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-xhu6pf/Debug/cmTC_7013c.lib" /MACHINE:X64  /machine:x64 cmTC_7013c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\cmTC_7013c.vcxproj]
+        已完成生成项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\cmTC_7013c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\cmTC_7013c.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhu6pf\\cmTC_7013c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-0o54xy"
+      binary: "F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-0o54xy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-0o54xy'
+        
+        Run Build Command(s): D:/vs_ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_31e5f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.13.19+0d9f5a35a
+        生成启动时间为 2025/4/26 11:35:56。
+        
+        节点 1 上的项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\cmTC_31e5f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_31e5f.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\Debug\\”。
+          正在创建目录“cmTC_31e5f.dir\\Debug\\cmTC_31e5f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_31e5f.dir\\Debug\\cmTC_31e5f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_31e5f.dir\\Debug\\cmTC_31e5f.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31e5f.dir\\Debug\\\\" /Fd"cmTC_31e5f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.43.34809 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31e5f.dir\\Debug\\\\" /Fd"cmTC_31e5f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\vs_ide\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\Debug\\cmTC_31e5f.exe" /INCREMENTAL /ILK:"cmTC_31e5f.dir\\Debug\\cmTC_31e5f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-0o54xy/Debug/cmTC_31e5f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/swapface/build/CMakeFiles/CMakeScratch/TryCompile-0o54xy/Debug/cmTC_31e5f.lib" /MACHINE:X64  /machine:x64 cmTC_31e5f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\cmTC_31e5f.vcxproj]
+        已完成生成项目“F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\cmTC_31e5f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\cmTC_31e5f.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\\swapface\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o54xy\\cmTC_31e5f.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.25
+        
+      exitCode: 1
+...

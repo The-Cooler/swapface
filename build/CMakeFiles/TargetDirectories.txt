@@ -1,0 +1,3 @@
+F:/swapface/build/CMakeFiles/swapface.dir
+F:/swapface/build/CMakeFiles/ALL_BUILD.dir
+F:/swapface/build/CMakeFiles/ZERO_CHECK.dir
